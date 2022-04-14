@@ -1,0 +1,19 @@
+There was an example of an infinite loop in the introduction to this section
+
+
+function loopy() {
+  while(true) {
+    console.log("Hello, world!");
+  }
+}
+
+
+
+function myFunc() {
+  for (let i = 1; i <= 4; i += 2) {
+    console.log("Still going!");
+  }
+}
+Your code should change the comparison operator in the terminal condition (the middle part) of the for loop.
+
+Your code should fix the comparison operator in the terminal condition of the loop.
